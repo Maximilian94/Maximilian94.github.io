@@ -1,0 +1,12 @@
+.logo span {
+  font-size: 24px;
+}
+
+.logo span:first-child {
+  color: #feffff;
+  font-weight: bold;
+}
+
+.logo span:last-child {
+  color: #969698;
+}
