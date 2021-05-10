@@ -11,19 +11,20 @@ class Header extends Component {
         </div>
         <div>
           <nav>
-            <ul>
+            <ul className="nav-links">
               <li>About me</li>
-              <li>What I know</li>
-              <li>What am I studying now</li>
+              <li>My knowledge</li>
+              <li>Projects</li>
             </ul>
           </nav>
         </div>
         <div>
           <nav>
-            <ul>
-              <li>GitHub</li>
-              <li>Linkedin</li>
-              <li>WhatsApp</li>
+            <ul className="social-links">
+              <li><img src="https://img.icons8.com/doodle/48/000000/github--v1.png"/></li>
+              <li><img src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png"/></li>
+              <li><img src="https://img.icons8.com/doodle/48/000000/whatsapp.png"/></li>
+              <li><img src="https://img.icons8.com/doodle/48/000000/gmail.png"/></li>
             </ul>
           </nav>
         </div>
