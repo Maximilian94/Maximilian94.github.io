@@ -14,7 +14,7 @@ function Banner() {
         </p>
         <p>Albert Einstein</p>
       </div>
-      <img src="images/eu-removebg-preview.png" alt="Maximilian" />
+      <img src="images/eu-removebg-preview.png" alt="Maximilian" draggable={false} />
     </div>
   );
 }

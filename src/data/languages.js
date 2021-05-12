@@ -1,4 +1,4 @@
-const languages = [
+export const knownLanguages = [
   {
     name: 'HTML',
     src: 'images/Icons/html.svg',
@@ -33,4 +33,21 @@ const languages = [
   },
 ];
 
-export default languages;
+export const studyingLanguages = [
+  {
+    name: 'SQL',
+    src: 'images/Icons/sql.svg',
+  },
+  {
+    name: 'MongoDB',
+    src: 'images/Icons/mongodb.svg',
+  },
+  {
+    name: 'NodeJS',
+    src: 'images/Icons/node-js.svg',
+  },
+  {
+    name: 'SASS',
+    src: 'images/Icons/sass.svg',
+  },
+];
