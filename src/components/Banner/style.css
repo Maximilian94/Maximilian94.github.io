@@ -1,0 +1,38 @@
+.banner img {
+  border-radius: 20%;
+  box-shadow: 10px 10px 10px 0px #28292d;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.banner-text {
+  max-width: 600px;
+}
+
+.banner-text p:first-child {
+  background-color: #68f1ad;
+  padding: 10px;
+  display: inline;
+  border-radius: 5px;
+}
+
+.banner-text p:nth-child(2) {
+  color: #feffff;
+  font-size: 48px;
+}
+
+.banner-text p:nth-child(3) {
+  color: #929398;
+  font-size: 18px;
+}
+
+.banner-text p:last-child {
+  font-style: italic;
+  color: #feffff;
+  display: inline;
+}
