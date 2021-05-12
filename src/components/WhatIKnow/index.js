@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { knownLanguages, studyingLanguages } from '../../data/languages';
+import { knownLanguages, studyingLanguages, tools } from '../../data/languages';
 
 function languageCard(data) {
   return (
@@ -22,8 +22,12 @@ function WhatIKnow() {
         <p>What I know:</p>
         {languageCard(knownLanguages)}
       </section>
+      <section>
+        <p>Tools I&apos;ve worked with</p>
+        {languageCard(tools)}
+      </section>
       <section className="what-im-studying">
-        <p>What Im studying:</p>
+        <p>What I am studying:</p>
         {languageCard(studyingLanguages)}
       </section>
     </section>

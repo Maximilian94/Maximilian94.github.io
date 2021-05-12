@@ -51,3 +51,34 @@ export const studyingLanguages = [
     src: 'images/Icons/sass.svg',
   },
 ];
+
+export const tools = [
+  {
+    name: 'ESlint',
+    src: 'images/Icons/eslint.svg',
+  },
+  {
+    name: 'Figma',
+    src: 'images/Icons/figma.svg',
+  },
+  {
+    name: 'GitHub',
+    src: 'images/Icons/github.svg',
+  },
+  {
+    name: 'Trello',
+    src: 'images/Icons/trello.svg',
+  },
+  {
+    name: 'Slack',
+    src: 'images/Icons/slack-logo.svg',
+  },
+  {
+    name: 'VS code',
+    src: 'images/Icons/visual-studio-code.svg',
+  },
+  {
+    name: 'Adobe Premiere',
+    src: 'images/Icons/adobe-premiere-pro.svg',
+  },
+];
