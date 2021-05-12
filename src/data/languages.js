@@ -50,6 +50,10 @@ export const studyingLanguages = [
     name: 'SASS',
     src: 'images/Icons/sass.svg',
   },
+  {
+    name: 'MySQL',
+    src: 'images/Icons/mysql.png',
+  },
 ];
 
 export const tools = [
