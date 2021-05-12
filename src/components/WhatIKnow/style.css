@@ -42,7 +42,7 @@
 }
 
 .language-card img:hover {
-  transform: scale(1.5) rotate(5deg)
+  transform: scale(1.5) rotate(5deg);
 }
 
 .language-card img:active {
