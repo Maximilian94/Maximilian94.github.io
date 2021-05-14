@@ -1,5 +1,6 @@
 .banner img {
-  border-radius: 20% 20% 0 0;
+  width: 50vh;
+  border-radius: 10% 10% 0 0;
   box-shadow: 10px 10px 10px 0px #28292d;
 }
 
@@ -31,7 +32,8 @@
   font-size: 18px;
 }
 
-.banner-text p:last-child {
+.author {
+  font-size: 18px;
   font-style: italic;
   color: #feffff;
   display: inline;

@@ -1,0 +1,29 @@
+.introduce {
+  display: flex;
+  background-color: #25262a;
+  color: #feffff;
+}
+
+.my-knowledge, .about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  padding: 10px 80px;
+}
+
+.about-me p{
+  color: #929398;
+  width: 80%;
+}
+
+.about-me p:nth-child(2) {
+  color: #feffff;
+  margin: 10px 0;
+  font-size: 40px;
+}
+
+.about-me img {
+  height: 42px;
+  transform: translateY(+4.5px);
+}
