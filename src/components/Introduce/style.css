@@ -12,6 +12,11 @@
   padding: 10px 80px;
 }
 
+.knowledge-card {
+  background-color: #2d2e31;
+  border-radius: 7px;
+}
+
 .about-me p{
   color: #929398;
   width: 80%;
@@ -26,4 +31,72 @@
 .about-me img {
   height: 42px;
   transform: translateY(+4.5px);
+}
+
+/*Shadow Effect
+https://tobiasahlin.com/demo/animate-box-shadow/
+*/
+
+.knowledge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 0;
+  padding: 2px 40px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.knowledge-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3)
+}
+
+.knowledge-card > p {
+  font-size: x-large;
+}
+
+.knowledge-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.language-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.knowledge-icons p {
+  font-size: x-large;
+}
+
+.language-icon img {
+  width: 52px;
+  margin: 20px 10px;
+  transition: 0.3s;
+  z-index: 3;
+}
+
+.language-icon img:hover {
+  transform: scale(1.5) rotate(5deg);
+}
+
+.language-icon img:active {
+  transform: scale(1) rotate(180deg);
+}
+
+.language-icon p {
+  font-style: italic;
+  position: absolute;
+  margin: 0;
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+  transition: 1s;
+}
+
+.language-icon:hover p{
+  transform: translateY(-200%);
+  opacity: 1;
+  transition: 1s;
 }

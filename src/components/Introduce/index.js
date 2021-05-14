@@ -1,11 +1,44 @@
 import React from 'react';
 import './style.css';
+import { knownLanguages, studyingLanguages, tools } from '../../data/languages';
 
 function Introduce() {
   return (
     <section className="introduce">
       <section className="my-knowledge">
-        <p>What I Know</p>
+        <div className="knowledge-card">
+          <p>What I Know</p>
+          <div className="knowledge-icons">
+            {knownLanguages.map((language) => (
+              <div className="language-icon">
+                <p>{language.name}</p>
+                <img src={language.src} alt={language.name} draggable={false} />
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="knowledge-card">
+          <p>Tools I&apos;ve worked with</p>
+          <div className="knowledge-icons">
+            {tools.map((language) => (
+              <div className="language-icon">
+                <p>{language.name}</p>
+                <img src={language.src} alt={language.name} draggable={false} />
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="knowledge-card">
+          <p>What I am studying:</p>
+          <div className="knowledge-icons">
+            {studyingLanguages.map((language) => (
+              <div className="language-icon">
+                <p>{language.name}</p>
+                <img src={language.src} alt={language.name} draggable={false} />
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
       <section className="about-me">
         <p>Introduce</p>
