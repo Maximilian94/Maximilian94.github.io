@@ -31,17 +31,17 @@ export const knownLanguages = [
     name: 'React Testing Library',
     src: 'images/Icons/react-testing-library.png',
   },
-];
-
-export const studyingLanguages = [
-  {
-    name: 'SQL',
-    src: 'images/Icons/sql.svg',
-  },
   {
     name: 'MongoDB',
     src: 'images/Icons/mongodb.svg',
   },
+  {
+    name: 'MySQL',
+    src: 'images/Icons/mysql.png',
+  },
+];
+
+export const studyingLanguages = [
   {
     name: 'NodeJS',
     src: 'images/Icons/node-js.svg',
@@ -49,10 +49,6 @@ export const studyingLanguages = [
   {
     name: 'SASS',
     src: 'images/Icons/sass.svg',
-  },
-  {
-    name: 'MySQL',
-    src: 'images/Icons/mysql.png',
   },
 ];
 
